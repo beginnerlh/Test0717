@@ -9,10 +9,16 @@
 返回：[4,3,8,2,7,12,1,6,11,16,5,10,15,9,14,13]
 */
 package written_test0717;
+
+import java.util.Arrays;
+
 //二维数组打印
 public class Test1 {
     public static void main(String[] args) {
-
+        Printer p = new Printer();
+        int[][] arr = {{1,2,3,4},{5,6,7,8},{9,10,11,12},{13,14,15,16}};
+        int n = 4;
+        System.out.println(Arrays.toString(p.arrayPrint(arr,n)));
     }
 }
 
